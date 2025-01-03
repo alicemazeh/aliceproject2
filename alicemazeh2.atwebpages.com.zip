@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"> <![endif]-->
+<html>
+        <head>
+                <meta charset="utf-8">
+                <base href="https://cp1.awardspace.net/">
+
+                                        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                
+                <title>AWARDSPACE.COM</title>
+
+                                <link rel="stylesheet" type="text/css" href="media/css/layouts/reset.css" >
+<link rel="stylesheet" type="text/css" href="media/themes/1.9.2/blue/style.css" >
+<link rel="stylesheet" type="text/css" href="media/plugins/videojs/video-js.css" >
+<link rel="stylesheet" type="text/css" href="media/css/classes/ui-base.css" >
+<link rel="stylesheet" type="text/css" href="media/css/classes/ui-cp.css" >
+<link rel="stylesheet" type="text/css" href="media/css/classes/notify.css" >
+<link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.0.1/css/all.css" >
+<link rel="stylesheet" type="text/css" href="media/css/classes/filter.css" >
+<link rel="stylesheet" type="text/css" href="media/css/layouts/panel.css?v=3" >
+<link rel="stylesheet" type="text/css" href="media/css/classes/translator.panel.css" >
+<link rel="stylesheet" type="text/css" href="media/css/pages/account.css" >
+<link rel="stylesheet" type="text/css" href="media/css/pages/dashboard.css" >
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="media/js/classes/temp-jquery.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+<script src="media/plugins/videojs/video.js" type="text/javascript"></script>
+<script src="media/js/classes/plugin.js" type="text/javascript"></script>
+<script src="media/js/classes/cookie.js" type="text/javascript"></script>
+<script src="media/js/classes/json.js" type="text/javascript"></script>
+<script src="media/js/classes/dropdown.js" type="text/javascript"></script>
+<script src="media/js/classes/input.js" type="text/javascript"></script>
+<script src="media/js/classes/help.js" type="text/javascript"></script>
+<script src="media/js/classes/video.js" type="text/javascript"></script>
+<script src="media/js/classes/notify.js" type="text/javascript"></script>
+<script src="media/js/classes/remote-dialog.js" type="text/javascript"></script>
+<script src="media/js/classes/panel-widget.js" type="text/javascript"></script>
+<script src="media/js/classes/dashboard.js" type="text/javascript"></script>
+<script src="media/js/classes/placeholder.js" type="text/javascript"></script>
+<script src="media/js/classes/validator.js" type="text/javascript"></script>
+<script src="media/js/classes/password-generator.js" type="text/javascript"></script>
+<script src="media/js/classes/filter.js" type="text/javascript"></script>
+<script src="media/js/classes/slide-selector.js" type="text/javascript"></script>
+<script src="media/js/classes/disable-notification.js" type="text/javascript"></script>
+<script src="media/js/classes/uriutils.js" type="text/javascript"></script>
+<script src="media/js/layouts/panel.js?v=3" type="text/javascript"></script>
+<script src="media/js/classes/translator.panel.js" type="text/javascript"></script>
+<script src="media/js/pages/account.js" type="text/javascript"></script>
+<script src="media/js/pages/dashboard.js" type="text/javascript"></script>
+<script src="media/plugins/jquery.previewing/js/jquery.prevue.min.js" type="text/javascript"></script>
+<script type="text/javascript">_V_.options.flash.swf = 'https://cp1.awardspace.net/media/plugins/videojs/video-js.swf';
+                                var _fbi = _fbi || [];
+                                _fbi.push(['init', { id: 1 }]);
+                                _fbi.push(['setCustomVariable', 'client', '4570537']);
+
+                                (function () {
+                                        var fbi = document.createElement('script'); fbi.type = 'text/javascript'; fbi.async = true;
+                                        fbi.src = (document.location.protocol == 'https:'? 'https' : 'http')+'://voice.supportindeed.com/media/js/classes/feedback-v1.js';
+                                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fbi, s);
+                                })();
+                        </script>
+        </head>
+        <body>
+
+            <div id="notify-top"><ul></ul></div>
+            <div id="notify-right"><ul></ul></div>
+            <div id="notify-overlay" class="ui-widget-overlay"></div>
+
+                        <!-- Header -->
+            <div id="header-bar">
+                    <div id="header" class="layout">
+                                                        <div id="head-logo">
+                                    <a class="logo-image" href="">
+                                            <img src="media/stores/img/cp_logo/16015.png">                                    </a>
+                            </div>
+                            <div id="head-options">
+                                    
+
+                                    
+                                    
+
+                                    
+                                    <div id="theme-menu-wrapper" class="head-menu-wrap">
+                                            <div class="head-menu-hide">
+
+                                                    <div class="head-menu ui-custom-border ui-corner-bl ui-corner-br">
+                                                            <div class="caption">Choose your theme</div>
+                                                            <ul>
+                                                                    <li class="theme-blue"><a href="settings/theme?name=blue" class="active">Blue</a></li>
+                                                                    <li class="theme-red"><a href="settings/theme?name=red" >Red</a></li>
+                                                                    <li class="theme-grey"><a href="settings/theme?name=grey" >Grey</a></li>
+                                                                                                                                </ul>
+
+                                                            <div class="caption">Dashboard/Sidebar</div>
+                                                            <ul>
+                                                                    <li class="reset-dashboard"><a data-dialog="dialog-reset-dashboard" href="settings/dashboard?action=reset">Reset Dashboard</a></li>
+                                                                    <li class="reset-sidebar"><a data-dialog="dialog-reset-sidebar" href="settings/sidebar?action=reset">Reset Sidebar</a></li>
+                                                                    <li class="reset-notifications"><a data-dialog="dialog-reset-notifications" href="settings/resetNotifications">Reset Notifications</a></li>
+
+                                                            </ul>
+
+                                                            <div id="dialog-reset-dashboard" title="Reset Dashboard?" class="ui-cp-dialog ui-helper-hidden">
+                                                                    <span class="ui-icon ui-icon-alert"></span>
+                                                                    <p>Warning! Your dashboard will be reset to default. Continue?</p>
+                                                            </div>
+
+                                                            <div id="dialog-reset-sidebar" title="Reset Sidebar?" class="ui-cp-dialog ui-helper-hidden">
+                                                                    <span class="ui-icon ui-icon-alert"></span>
+                                                                    <p>Warning! Your sidebar will be reset to default. Continue?</p>
+                                                            </div>
+                                                            <div id="dialog-reset-notifications" title="Reset notifications?" class="ui-cp-dialog ui-helper-hidden">
+                                                                    <span class="ui-icon ui-icon-alert"></span>
+                                                                    <p>Warning! All notifications will be reactivated.</p>
+                                                            </div>
+                                                    </div>
+
+                                            </div>
+
+                                            <div class="head-menu-handler ui-widget-header ui-corner-bl ui-corner-br">
+                                                    <span class="ui-icon ui-icon-triangle-1-s"></span>View                                            </div>
+                                    </div>
+
+                                    <div id="region-menu-wrapper" class="head-menu-wrap">
+                                            <div class="head-menu-hide">
+                                                    <div class="head-menu ui-custom-border ui-corner-bl ui-corner-br">
+                                                            <div class="caption">Select your Region</div>
+                                                            <ul>
+                                                                    
+                                                                                                                                                        <li class="region-icon-US">
+                                                                                    <a href="settings/region?code=US" class="active">United States</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-UK">
+                                                                                    <a href="settings/region?code=UK" >United Kingdom</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-CA">
+                                                                                    <a href="settings/region?code=CA" >Canada</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-053">
+                                                                                    <a href="settings/region?code=053" >Australia and New Zealand</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-150">
+                                                                                    <a href="settings/region?code=150" >Europe</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-005">
+                                                                                    <a href="settings/region?code=005" >South America</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-142">
+                                                                                    <a href="settings/region?code=142" >Asia</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-002">
+                                                                                    <a href="settings/region?code=002" >Africa</a>
+                                                                            </li>
+                                                                    
+                                                                                                                                                        <li class="region-icon-001">
+                                                                                    <a href="settings/region?code=001" >World</a>
+                                                                            </li>
+                                                                    
+                                                            </ul>
+
+
+                                                    </div>
+                                            </div>
+
+                                            <div class="head-menu-handler ui-widget-header ui-corner-bl ui-corner-br">
+                                                    <span class="ui-icon ui-icon-triangle-1-s"></span>
+                                                    <span id="current-region" class="region-icon-US"></span>
+                                                    Region                                            </div>
+
+                                    </div>
+
+                                    <div id="language-menu-wrapper" class="head-menu-wrap">
+                                            <div class="head-menu-hide">
+
+                                                    <div class="head-menu ui-custom-border ui-corner-bl ui-corner-br">
+                                                            <div class="caption">Control Panel Language</div>
+                                                            <ul>
+                                                                                                                                                <li><a href="settings/language?code=en" class="active">English</a></li>
+                                                                                                                                                <li><a href="settings/language?code=es" >Spanish</a></li>
+                                                                                                                                                <li><a href="settings/language?code=de" >German</a></li>
+                                                                                                                                                <li><a href="settings/language?code=fr" >French</a></li>
+                                                                                                                                                <li><a href="settings/language?code=ru" >Russian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=ar" >Arabic</a></li>
+                                                                                                                                                <li><a href="settings/language?code=bs" >Bosnian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=bg" >Bulgarian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=zh" >Chinese (Simplified)</a></li>
+                                                                                                                                                <li><a href="settings/language?code=hr" >Croatian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=cs" >Czech</a></li>
+                                                                                                                                                <li><a href="settings/language?code=da" >Danish</a></li>
+                                                                                                                                                <li><a href="settings/language?code=nl" >Dutch</a></li>
+                                                                                                                                                <li><a href="settings/language?code=fi" >Finnish</a></li>
+                                                                                                                                                <li><a href="settings/language?code=gr" >Greek</a></li>
+                                                                                                                                                <li><a href="settings/language?code=hu" >Hungarian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=it" >Italian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=ja" >Japanese</a></li>
+                                                                                                                                                <li><a href="settings/language?code=no" >Norwegian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=pl" >Polish</a></li>
+                                                                                                                                                <li><a href="settings/language?code=pt" >Portuguese</a></li>
+                                                                                                                                                <li><a href="settings/language?code=br" >Portuguese (Brazil)</a></li>
+                                                                                                                                                <li><a href="settings/language?code=sr" >Serbian</a></li>
+                                                                                                                                                <li><a href="settings/language?code=sv" >Swedish</a></li>
+                                                                                                                                                <li><a href="settings/language?code=tr" >Turkish</a></li>
+                                                                                                                                </ul>
+
+                                                                                                                </div>
+
+                                            </div>
+
+                                            <div class="head-menu-handler ui-widget-header ui-corner-bl ui-corner-br">
+                                                    <span class="ui-icon ui-icon-triangle-1-s"></span>
+                                                    <span id="current-language"></span>
+                                                    Language | EN                                            </div>
+
+                                    </div>
+
+                                    <a id="logout" class="ui-widget-header ui-corner-bl ui-corner-br" href="login/logout/">
+                                            <span class="ui-icon ui-icon-power"></span>Logout                                    </a>
+
+                                    
+                            </div>
+
+                                                        <span id="greeting" class="ui-corner-tl ui-corner-tr">Welcome, Alice Mazeh</span>
+                                                </div>
+            </div>
+            <!-- !Header -->
+            
+                        <!-- Top Menu -->
+            <div id="top-menu-bar" class="ui-widget-header">
+                    <div id="top-menu" class="layout">
+
+                            <ul class="top-menu ui-helper-clearfix">
+                                                                                <li>
+                                                    <a class="section" href="">Dashboard</a>
+                                                                                                </li>
+                                                                                <li>
+                                                    <a class="section" href="#">Hosting Tools</a>
+                                                                                                                    <div class="sub ui-custom-border ui-corner-bl ui-corner-br">
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-4">Website Manager</h5></li>
+                                                                                                                                                                                        <li><a href="domain-manager/">Domain Manager</a></li>
+                                                                                                                                                                                        <li><a href="file-manager/">File Manager</a></li>
+                                                                                                                                                                                        <li><a href="zacky-installer/">Zacky App Installer</a></li>
+                                                                                                                                                                                        <li><a href="website-builder/">Zacky Website Builder</a></li>
+                                                                                                                                                                                        <li><a href="ftp-manager/">FTP Manager</a></li>
+                                                                                                                                                                                        <li><a href="hosting-settings/">Hosting Settings</a></li>
+                                                                                                                                                                                        <li><a href="password-protection/">Password Protection</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-5">E-mail Manager</h5></li>
+                                                                                                                                                                                        <li><a href="email-manager/#accounts">E-mail Accounts</a></li>
+                                                                                                                                                                                        <li><a href="email-manager/#aliases">E-mail Aliases</a></li>
+                                                                                                                                                                                        <li><a href="webmail/">Webmail</a></li>
+                                                                                                                                                                                        <li><a href="mailing-lists/">Mailing List Manager</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-6">Database Manager</h5></li>
+                                                                                                                                                                                        <li><a href="database-manager/#mysql-databases">MySQL Databases</a></li>
+                                                                                                                                                                                        <li><a href="https://supportindeed.com/phpMyAdmin/?server=1" target="_blank">phpMyAdmin</a></li>
+                                                                                                                                                                                        <li><a href="database-manager/#pgsql-databases">PostgreSQL Databases</a></li>
+                                                                                                                                                                                        <li><a href="https://supportindeed.com/phpPgAdmin/" target="_blank">phpPgAdmin</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-7">Advanced Tools</h5></li>
+                                                                                                                                                                                        <li><a href="php-settings/">PHP Settings</a></li>
+                                                                                                                                                                                        <li><a href="crontab-settings/">Crontab Settings</a></li>
+                                                                                                                                                                                        <li><a href="ssh-manager/">SSH Manager</a></li>
+                                                                                                                                                                                        <li><a href="ssl-manager/">SSL Manager</a></li>
+                                                                                                                                                                                        <li><a href="htaccess-generator/">.htaccess Generator</a></li>
+                                                                                                                                                                                        <li><a href="asp-manager/">ASP.NET Manager</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-8">Website Statistics</h5></li>
+                                                                                                                                                                                        <li><a href="access-error-logs/">Access & Error Logs</a></li>
+                                                                                                                                                                                        <li><a href="traffic-statistics/">Traffic Statistics</a></li>
+                                                                                                                                                                                        <li><a href="webalizer/">Webalizer</a></li>
+                                                                                                                                                                                        <li><a href="usage-reports/">Usage Reports</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                        </div>
+                                                                                                </li>
+                                                                                <li>
+                                                    <a class="section" href="services/hosting">Buy Services</a>
+                                                                                                                    <div class="sub ui-custom-border ui-corner-bl ui-corner-br">
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-1">Services</h5></li>
+                                                                                                                                                                                        <li><a href="services/renew?mcid=top-menu">Renew Services</a></li>
+                                                                                                                                                                                        <li><a href="services/hosting?mcid=top-menu">Upgrade Services</a></li>
+                                                                                                                                                                                        <li><a href="services/sdh?mcid=top-menu">Semi Dedicated Hosting</a></li>
+                                                                                                                                                                                        <li><a href="services/vps?mcid=top-menu">Cloud Servers</a></li>
+                                                                                                                                                                                        <li><a href="services/ssl?mcid=top-menu">SSL Certificates</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-2">Domains</h5></li>
+                                                                                                                                                                                        <li><a href="domain-manager/#domain-register">Register Domains</a></li>
+                                                                                                                                                                                        <li><a href="domain-manager/#domain-transfer">Transfer Domains</a></li>
+                                                                                                                                                                                        <li><a href="services/renew?mcid=top-menu">Renew Domains</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-18">Orders & Invoices</h5></li>
+                                                                                                                                                                                        <li><a href="orders/#incomplete">Incomplete Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#pending">Pending Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#completed">Completed Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#canceled">Canceled Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#invoices">Invoices</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-19">Billing</h5></li>
+                                                                                                                                                                                        <li><a href="orders/#wallet">Wallet</a></li>
+                                                                                                                                                                                        <li><a href="orders/#renewals">Auto Renewals</a></li>
+                                                                                                                                                                                        <li><a href="orders/#payment-requests">Payment Requests</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                        </div>
+                                                                                                </li>
+                                                                                <li>
+                                                    <a class="section" href="#">Cloud Servers</a>
+                                                                                                                    <div class="sub ui-custom-border ui-corner-bl ui-corner-br">
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-14">System Administration</h5></li>
+                                                                                                                                                                                        <li><a href="vps-manager/">VPS Manager</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-15">Order Tools</h5></li>
+                                                                                                                                                                                        <li><a href="services/vps?mcid=top-menu">Purchase VPS</a></li>
+                                                                                                                                                                                        <li><a href="services/vpsUpgrades?mcid=top-menu">Purchase VPS Upgrades</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                        </div>
+                                                                                                </li>
+                                                                                <li>
+                                                    <a class="section" href="#">Account</a>
+                                                                                                                    <div class="sub ui-custom-border ui-corner-bl ui-corner-br">
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-17">Account Manager</h5></li>
+                                                                                                                                                                                        <li><a href="account/#account-info">Account Information</a></li>
+                                                                                                                                                                                        <li><a href="account/#account-password">Account Password</a></li>
+                                                                                                                                                                                        <li><a href="account/#account-2fa">Two-Factor Authentication</a></li>
+                                                                                                                                                                                        <li><a href="terms-of-service/">Terms of Service</a></li>
+                                                                                                                                                                                        <li><a href="account/#account-closure">Account Closure</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-18">Orders & Invoices</h5></li>
+                                                                                                                                                                                        <li><a href="orders/#incomplete">Incomplete Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#pending">Pending Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#completed">Completed Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#canceled">Canceled Orders</a></li>
+                                                                                                                                                                                        <li><a href="orders/#invoices">Invoices</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-19">Billing</h5></li>
+                                                                                                                                                                                        <li><a href="orders/#wallet">Wallet</a></li>
+                                                                                                                                                                                        <li><a href="orders/#renewals">Auto Renewals</a></li>
+                                                                                                                                                                                        <li><a href="orders/#payment-requests">Payment Requests</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                        </div>
+                                                                                                </li>
+                                                                                <li>
+                                                    <a class="section" href="support/">Support</a>
+                                                                                                                    <div class="sub ui-custom-border ui-corner-bl ui-corner-br">
+                                                                                                                                                        <ul>
+                                                                                        <li class="no-arrow"><h5 id="category-20">Support Center</h5></li>
+                                                                                                                                                                                        <li><a href="support/">Trouble Tickets</a></li>
+                                                                                                                                                                                        <li><a href="faq">FAQ</a></li>
+                                                                                                                                                                                        <li><a href="backup-manager/">Backup Manager</a></li>
+                                                                                                                                                                                        <li><a href="notifications/">System Notifications</a></li>
+                                                                                                                                                                        </ul>
+                                                                                                                                        </div>
+                                                                                                </li>
+                                                                </ul>
+
+                    </div>
+            </div>
+            <!-- !Top Menu -->
+            
+            <!-- Content -->
+            <div id="content" class="layout ui-custom-border ui-helper-clearfix ui-corner-bl ui-corner-br">
+
+            
+                                <div id="left-sidebar" class="sidebar-dashboard">
+                            <div id="switch-left-sidebar" class="ui-corner-tr ui-corner-br ui-widget-header"><span id="switch-left-sidebar-icon" class="ui-icon ui-icon-arrowthick-1-e"></span></div>
+                            <div id="dialog-remove-widget" title="Remove Widget?" class="ui-cp-dialog ui-helper-hidden">
+                                    <span class="ui-icon ui-icon-alert"></span>
+                                    <p>This widget will be removed from the custom section. It can be recovered by dragging it again into the custom section. Continue?</p>
+                            </div>
+
+                            <div id="dialog-remove-tool" title="Remove Tool?" class="ui-cp-dialog ui-helper-hidden">
+                                    <span class="ui-icon ui-icon-alert"></span>
+                                    <p>This tool will be removed from the custom widget. It can be recovered by dragging it again into the custom widget. Continue?</p>
+                            </div>
+
+                            
+                            
+                                                                                     
+                        <ul class="ui-cp-widgets" data-pos="center">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="system-notifications" data-type="system-notifications" data-deletable="false" data-editable="false" data-movable="false" data-collapsible="false" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">System Status Notifications</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-system-notifications">Widget title</label>
+                                                                                <input id="widget-title-system-notifications" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                        <p id="system-status">Service is up and running!</p>
+   
+                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="vote-for-us" data-type="vote-for-us" data-deletable="false" data-editable="false" data-movable="false" data-collapsible="false" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Vote for us</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-vote-for-us">Widget title</label>
+                                                                                <input id="widget-title-vote-for-us" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div id="vote-for-us">Dear <b>Alice Mazeh</b>, <br /> <br /> We are constantly trying to improve the web hosting services we offer you.<br /><br />If you spot any kind of bugs related to the system functionality or have any other suggestions, please <a href="https://cp1.awardspace.net/beta/support/"> give your feedback here</a> or use the contact form on our website.<br /><br />If you like our hosting services you can make our hosting community become even more popular by writing a review and voting for us:<br /> <br />
+<blockquote>1. <a href="https://hostadvice.com/hosting-company/awardspace-reviews/" target="_blank">Web Hosting Review of AwardSpace.com @ hostadvice.com</a></blockquote>
+<br /> <br />
+<blockquote>2. <a href="http://webhostinggeeks.com/user-reviews/awardspace/" target="_blank">Web Hosting Review of AwardSpace.com @ webhostinggeeks.com</a></blockquote>
+<br /> <br /> <br /> Thank you for your ongoing interest and support!<br /> <br /><br /><b>AWARDSPACE.COM </b>Team<br /><b><a href="http://awardspace.com" target="_blank">awardspace.com</a></b></div>                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                
+                            <ul><li class="section sidebar" data-self="custom">
+                        <ul class="ui-cp-widgets" data-pos="center">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="widget-kufjdtop" data-type="tools" data-deletable="false" data-editable="true" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Custom Widget</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-widget-kufjdtop">Widget title</label>
+                                                                                <input id="widget-title-widget-kufjdtop" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty "><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                        </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                        </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                        </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="hosting-statistics" data-type="hosting-statistics" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Hosting Account Statistics</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-hosting-statistics">Widget title</label>
+                                                                                <input id="widget-title-hosting-statistics" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div id="client-id">
+        Client ID <span>4570537</span>
+    </div>
+<table class="widget-grid">
+                                <caption>
+                        FREE Web                        <a href="services/hosting?mcid=sidebar">upgrade</a>/<a href="services/renew?mcid=sidebar">renew</a>
+                </caption>
+                        <tr>
+                <td class="row1 even">Account expiration</td>
+                <td class="row2 even">02 Jan, 2026</td>
+                <td class="row3 even"></td>
+        </tr>
+        <tr>
+                <td colspan="3"> </td>        
+        </tr>
+                <tr>
+                <td class="head row1 odd">Services</td>
+                <td class="head row2 odd">Total Available</td>
+                <td class="head row3 odd">Used</td>
+        </tr>
+                <tr>
+                <td class="row1 even">Disk Space</td>
+                <td class="row2 even">1 GiB</td>
+                <td class="row3 even">0 B</td>
+        </tr>
+                <tr>
+                <td class="row1 odd">Traffic</td>
+                <td class="row2 odd">5 GiB</td>
+                <td class="row3 odd">0 B</td>
+        </tr>
+                <tr>
+                <td class="row1 even">Domains</td>
+                <td class="row2 even">1</td>
+                <td class="row3 even">0</td>
+        </tr>
+                <tr>
+                <td class="row1 odd">Subdomains</td>
+                <td class="row2 odd">3</td>
+                <td class="row3 odd">1</td>
+        </tr>
+                <tr>
+                <td class="row1 even">MySQL DBs</td>
+                <td class="row2 even">1</td>
+                <td class="row3 even">1</td>
+        </tr>
+                <tr>
+                <td class="row1 odd">PostgreSQL DBs</td>
+                <td class="row2 odd">0</td>
+                <td class="row3 odd">0</td>
+        </tr>
+                <tr>
+                <td class="row1 even">E-mails</td>
+                <td class="row2 even">1</td>
+                <td class="row3 even">0</td>
+        </tr>
+                <tr>
+                <td class="row1 even" colspan="3" align="center">
+                        <a id="statistics-refresh" href="#"><span class="ui-icon ui-icon-refresh"></span>Refresh Statistics</a>
+                </td>
+        </tr>
+</table>
+<div id="statistics-note"><b>Note</b>: Disk space and traffic statistics are updated hourly!</div>
+                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget " data-self="widget-mqwoecna" data-type="sidebar-ads">
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div id="sidebar-ads"></div>                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="hosting-features" data-type="hosting-features" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Hosting Account Features</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-hosting-features">Widget title</label>
+                                                                                <input id="widget-title-hosting-features" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <table class="widget-grid">
+        <tr>
+                <td class="head row1 odd">Services</td>
+                <td class="head row2 odd">Status</td>
+                <td class="head row3 odd">Action</td>
+        </tr>
+                <tr>
+                <td class="row1 even">File size limit</td>
+                <td class="row2 even">15 MiB</td>
+                <td class="row3 even"><a href="services/?mcid=sidebar">remove</a></td>
+        </tr>
+        <tr>
+                <td class="row1 odd">SMTP</td>
+                <td class="row2 odd">ON</td>
+                <td class="row3 odd"></td>
+        </tr>
+                        <tr>
+                <td class="row1 even">PHP version</td>
+                <td class="row2 even" id="hosting-features-phpver">8.3.15</td>
+                <td class="row3 even"><a href="php-settings/">change</a></td>
+        </tr>
+        <tr>
+                <td class="row1 odd">PHP info</td>
+                <td class="row2 odd"><a href="hosting-settings/">view</a></td>
+                <td class="row3 odd"><a class="php-info-help ui-cp-help" data-help-url="dashboard/phpInfoHelp">what's that</a></td>
+        </tr>
+                <tr>
+                <td class="row1 even ui-corner-bl">MySQL version</td>
+                <td class="row2 even">8.0</td>
+                <td class="row3 even ui-corner-br"></td>
+                
+        </tr>
+        <tr>
+                <td class="row1 odd ui-corner-bl">Name Servers (NS)</td>
+                <td class="row2 odd"><a class="nameservers-help ui-cp-help" data-help-url="dashboard/nameserversHelp">view</a></td>
+                <td class="row3 odd ui-corner-br"><a class="nameservers-help ui-cp-help" data-help-url="dashboard/nameserversWhats">what's that</a></td>
+        </tr>
+        <tr>
+                <td class="row1 even ui-corner-bl">System paths</td>
+                <td class="row2 even"><a href="hosting-settings/">view</a></td>
+                <td class="row3 even ui-corner-br"></td>
+        </tr>
+        <tr>
+                <td class="row1 even ui-corner-bl">Firewall Options</td>
+                <td class="row2 even"><a href="hosting-settings/">view</a></td>
+                <td class="row3 even ui-corner-br"></td>
+        </tr>
+        <tr>
+                <td class="row1 odd ui-corner-bl ui-corner-br" colspan="3">
+                        <a id="enter-hosting-settings" href="hosting-settings/">
+                                <span class="ui-icon ui-icon-wrench"></span>Enter Hosting Settings                        </a>
+                </td>
+        </tr>
+</table>                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                
+</li></ul>
+
+                    </div>
+
+                    <div id="right-area">
+
+                            
+                                                                                                                                                    <div id="dialog-force-pwd-change" class="ui-helper-hidden" title="Change Password">
+                                            <h6>
+                                                                                                        You have been registered through social network. We highly recommend to you to setup password.<br>
+                                                                                                </h6>
+                                            <div id="account-form" class="ui-helper-clearfix">
+                                                    <form id="account-password-form" class="ui-cp-form" action="https://cp1.awardspace.net/account/changePassword" method="post">
+                                                                                                                        <div class="ui-cp-form-wrap ui-cp-validate">
+                                                                    <label for="passwordNew">
+                                                                            New Password: <span class="ui-icon ui-icon-info password-help ui-cp-help" data-help-url="dashboard/passwordHelp"></span>
+                                                                    </label>
+                                                                    <input id="passwordNew" class="ui-cp-input" type="password" name="passwordNew" value="">
+                                                                    <br>
+                                                                    <div class="ui-cp-validator-wrap">
+                                                                            <span class="ui-cp-validator-bar small"></span><br>
+                                                                            <span class="ui-cp-validator-message default">Please provide a password.</span>
+                                                                            <span class="ui-cp-validator-message invalid">The password contains invalid characters.</span>
+                                                                            <span class="ui-cp-validator-message short">The password is too short.</span>
+                                                                            <span class="ui-cp-validator-message long">Please try a password with 8 - 32 characters.</span>
+                                                                            <span class="ui-cp-validator-message digit">The password does not contain any digits.</span>
+                                                                            <span class="ui-cp-validator-message char">The password does not contain any letters.</span>
+                                                                            <span class="ui-cp-validator-message weak">Weak Password.</span>
+                                                                            <span class="ui-cp-validator-message medium">Medium Password.</span>
+                                                                            <span class="ui-cp-validator-message strong">Strong Password.</span>
+                                                                    </div>
+                                                            </div>
+                                                            <div class="ui-cp-form-wrap">
+                                                                    <label for="passwordConfirm">
+                                                                            Confirm Password:                                                                    </label>
+                                                                    <input id="passwordConfirm" class="ui-cp-input" type="password" name="passwordConfirm" value="">
+                                                            </div>
+                                                            <div class="ui-cp-form-buttons">
+                                                                    <a class="ui-cp-button ui-cp-submit" href="#">Change Password</a>
+                                                            </div>
+                                                    </form>
+                                            </div>
+                                    </div>
+                            
+                                                                <div class="custom-area ui-corner-all">
+                                            <a class="custom-area-descr ui-corner-all ui-cp-help" data-help-url="dashboard/adHelp">Remove this ad?</a>
+                                            <a href="services/hosting?mcid=top-offer"><img src="/img.php?i=https://docs.awardspace.net/images/cp_custom/cp-top-offer.gif" alt="" width="728" height="90" /></a>                                    </div>
+                                                        <div id="dashboard" class="sidebar-dashboard">
+        <ul class="sections">
+                
+                        <li class="section ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="custom" data-type="" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+
+                                <div class="section-header ui-cp-widget-header ui-widget-header ui-corner-all">
+                                        Custom Section                                        <div class="ui-cp-widget-controls">
+                                                <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-wrench"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                        <span class="ui-icon ui-icon-arrow-4"></span>
+                                                </span>
+                                        </div>
+                                </div>
+                                
+                                <div class="ui-cp-widget-content-inner">
+                        <ul class="ui-cp-widgets" data-pos="left">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="first-steps" data-type="first-steps" data-deletable="false" data-editable="true" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">First Steps Made Easy</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-first-steps">Widget title</label>
+                                                                                <input id="widget-title-first-steps" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <ul class="first-steps">
+        <li class="ui-cp-state-dummy ui-corner-all" data-self="domain-manager">
+                <a href="domain-manager/">
+                        <p><b>Domain Manager</b> - Would you like to <b>register or transfer</b> a <b>domain name</b>? Click here...</p>
+                </a>
+        </li>
+        <li class="ui-cp-state-dummy ui-corner-all" data-self="zacky-installer">
+                <a href="zacky-installer/">
+                        <p><b>Zacky Tools Installer</b> - Would you like to install a <b>Website Builder</b> or any other <b>web tool</b>? Click here...</p>
+                </a>
+        </li>
+        <li class="ui-cp-state-dummy ui-corner-all" data-self="ftp-manager">
+                <a href="ftp-manager/">
+                        <p><b>FTP Manager</b> - Would you like to <b>setup an FTP Account</b> and start uploading your files through FTP? Click here...</p>
+                </a>
+        </li>
+        <li class="ui-cp-state-dummy ui-corner-all" data-self="file-manager">
+                <a href="file-manager/">
+                        <p><b>File Manager</b> - Would you like to <b>access and manage your files</b> directly from the control panel? Click here...</p>
+                </a>
+        </li>
+</ul>                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                        <ul class="ui-cp-widgets" data-pos="center">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="intro-video" data-type="intro-video" data-deletable="false" data-editable="true" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Dashboard Intro Video</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-intro-video">Widget title</label>
+                                                                                <input id="widget-title-intro-video" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="dashboard-intro-poster">
+        <img src="media/images/poster-dashboard-intro.jpg">
+</div><script type="text/javascript">
+                        Dashboard._intro = {};
+                        
+                        Dashboard._intro.sources = [
+                                { src: "https://cp1.awardspace.net/media/videos/dashboard-intro.mp4", type: "video/mp4" },
+                                { src: "https://cp1.awardspace.net/media/videos/dashboard-intro.webm", type: "video/webm" },
+                                { src: "https://cp1.awardspace.net/media/videos/dashboard-intro.ogv", type: "video/ogg" }
+                        ];
+
+                        Dashboard._intro.tracks = [
+                                { src: "https://cp1.awardspace.net/videos/caption?video=dashboardintro", kind: "subtitles", srclang: "en", label: "English", isDefault: true }
+                        ];
+                
+                        Dashboard._intro = {};
+                        
+                        Dashboard._intro.sources = [
+                                { src: "https://cp1.awardspace.net/media/videos/dashboard-intro.mp4", type: "video/mp4" },
+                                { src: "https://cp1.awardspace.net/media/videos/dashboard-intro.webm", type: "video/webm" },
+                                { src: "https://cp1.awardspace.net/media/videos/dashboard-intro.ogv", type: "video/ogg" }
+                        ];
+
+                        Dashboard._intro.tracks = [
+                                { src: "https://cp1.awardspace.net/videos/caption?video=dashboardintro", kind: "subtitles", srclang: "en", label: "English", isDefault: true }
+                        ];
+                </script>
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                        <ul class="ui-cp-widgets" data-pos="right">
+                                                                                                                                                <li class="widget ui-cp-widget " data-self="widget-apetvnbi" data-type="custom-section-ads">
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div id="custom-section-ads"></div>                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="widget-yh9stbre" data-type="tools" data-deletable="false" data-editable="true" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Custom Widget</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-widget-yh9stbre">Widget title</label>
+                                                                                <input id="widget-title-widget-yh9stbre" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty "><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                        </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                        </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                        </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                
+</div>
+                        </li>
+                
+                        <li class="section ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="web-hosting" data-type="" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+
+                                <div class="section-header ui-cp-widget-header ui-widget-header ui-corner-all">
+                                        Hosting Tools                                        <div class="ui-cp-widget-controls">
+                                                <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-wrench"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                        <span class="ui-icon ui-icon-arrow-4"></span>
+                                                </span>
+                                        </div>
+                                </div>
+                                
+                                <div class="ui-cp-widget-content-inner">
+                        <ul class="ui-cp-widgets" data-pos="left">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="website-manager" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Website Manager</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-website-manager">Widget title</label>
+                                                                                <input id="widget-title-website-manager" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="domain-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="domain-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Domain Manager                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="file-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="file-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                File Manager                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="zacky-website-builder">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="website-builder/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Zacky Website Builder                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="zacky-installer">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="zacky-installer/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Zacky App Installer                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="ftp-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="ftp-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                FTP Manager                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="hosting-settings">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="hosting-settings/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Hosting Settings                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="password-protection">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="password-protection/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Password Protection                                        </a>
+                                </li>
+                                                </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="website-statistics" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Website Statistics</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-website-statistics">Widget title</label>
+                                                                                <input id="widget-title-website-statistics" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="access-error-logs">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="access-error-logs/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Access & Error Logs                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="traffic-statistics">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="traffic-statistics/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Traffic Statistics                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="webalizer">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="webalizer/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Webalizer                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="usage-reports">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="usage-reports/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Usage Reports                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                        </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="cloud-servers" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Cloud Servers</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-cloud-servers">Widget title</label>
+                                                                                <input id="widget-title-cloud-servers" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="vps-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="vps-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                VPS Manager                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="vps-upgrades">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="services/vpsUpgrades?mcid=dashboard">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                VPS Upgrades                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                        </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                        <ul class="ui-cp-widgets" data-pos="center">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="advanced-tools" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Advanced Tools</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-advanced-tools">Widget title</label>
+                                                                                <input id="widget-title-advanced-tools" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="database-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="database-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Database Manager                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="php-settings">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="php-settings/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                PHP Settings                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="asp-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="asp-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                ASP.NET Manager                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="ssh-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="ssh-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                SSH Manager                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="ssl-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="ssl-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                SSL Manager                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="crontab-settings">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="crontab-settings/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Crontab Settings                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="htaccess-generator">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="htaccess-generator/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                .htaccess Generator                                        </a>
+                                </li>
+                                                </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="account-manager" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Account Manager</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-account-manager">Widget title</label>
+                                                                                <input id="widget-title-account-manager" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="account-information">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="account/#account-info">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Account Information                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="account-password">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="account/#account-password">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Account Password                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="terms-of-service">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="terms-of-service/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Terms of Service                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="account-closure">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="account/#account-closure">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Account Closure                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="account-2fa">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="account/#account-2fa">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Two-Factor Authentication                                        </a>
+                                </li>
+                                                </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                        <ul class="ui-cp-widgets" data-pos="right">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="email-manager" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Email Manager</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-email-manager">Widget title</label>
+                                                                                <input id="widget-title-email-manager" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="email-accounts">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="email-manager/#accounts">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Email Accounts                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="email-aliases">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="email-manager/#aliases">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Email Aliases                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="webmail-access">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="webmail/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Webmail Access                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="mailing-lists-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="mailing-lists/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Mailing Lists Manager                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                        </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="support-center" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Support Center</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-support-center">Widget title</label>
+                                                                                <input id="widget-title-support-center" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="trouble-tickets">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="support/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Trouble Tickets                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="hosting-faq">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="faq/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Hosting FAQ                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="backup-manager">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="backup-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Backup Manager                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="system-notifications">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="notifications/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                System Notifications                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                        </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                
+</div>
+                        </li>
+                
+                        <li class="section ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="buy-services" data-type="" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+
+                                <div class="section-header ui-cp-widget-header ui-widget-header ui-corner-all">
+                                        Buy Services                                        <div class="ui-cp-widget-controls">
+                                                <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-wrench"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                </span>
+                                                <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                        <span class="ui-icon ui-icon-arrow-4"></span>
+                                                </span>
+                                        </div>
+                                </div>
+                                
+                                <div class="ui-cp-widget-content-inner">
+                        <ul class="ui-cp-widgets" data-pos="left">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="web-hosting" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Web Hosting</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-web-hosting">Widget title</label>
+                                                                                <input id="widget-title-web-hosting" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="services-upgrade">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="services/hosting?mcid=dashboard">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Services Upgrade                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="semi-dedicated-hosting">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="services/sdh?mcid=dashboard">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Semi Dedicated Hosting                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="ssl-certificates">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="services/ssl?mcid=dashboard">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                SSL Certificates                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="vps-servers">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="services/vps?mcid=dashboard">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Virtual Private Servers (VPS)                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="seo-submission">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="services/seo?mcid=dashboard">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                SEO / SMO                                        </a>
+                                </li>
+                                                </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                        <ul class="ui-cp-widgets" data-pos="center">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="domains" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Domains</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-domains">Widget title</label>
+                                                                                <input id="widget-title-domains" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="register-domains">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="domain-manager/">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Register Domains                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="transfer-domains">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="domain-manager/#domain-transfer">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Transfer Domains                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="renew-domains">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="services/renew?mcid=dashboard">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Renew Domains                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                        </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                        <ul class="ui-cp-widgets" data-pos="right">
+                                                                                                                                                <li class="widget ui-cp-widget ui-widget-content ui-corner-all ui-helper-clearfix " data-self="orders-invoices" data-type="tools" data-deletable="false" data-editable="false" data-movable="true" data-collapsible="true" data-collapsed="false" >
+                                                
+                                                        <div class="ui-cp-widget-header ui-widget-header ui-corner-all">
+                                                                <span class="ui-cp-widget-title">Orders & Invoices</span>
+                                                                <div class="ui-cp-widget-controls">
+                                                                        <span class="ui-cp-widget-controls-remove ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-trash"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-edit ui-cp-state-dummy ui-corner-all ui-helper-hidden">
+                                                                                <span class="ui-icon ui-icon-wrench"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-toggle ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                        </span>
+                                                                        <span class="ui-cp-widget-controls-move ui-cp-state-dummy ui-corner-all ">
+                                                                                <span class="ui-icon ui-icon-arrow-4"></span>
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                        <form class="ui-cp-widget-options ui-cp-form ui-widget-content ui-helper-hidden" method="post" action="">
+                                                                <span class="ui-cp-widget-options-close ui-cp-state-dummy ui-corner-all">
+                                                                        <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+                                                                </span>
+                                                                <ul>
+                                                                        <li class="ui-corner-all">
+                                                                                <label for="widget-title-orders-invoices">Widget title</label>
+                                                                                <input id="widget-title-orders-invoices" class="widget-title ui-cp-input" type="text" value="">
+                                                                        </li>
+                                                                </ul>
+                                                        </form>
+
+                                                        <div class="ui-cp-widget-content-inner">
+                                                                <div class="ui-cp-widget-empty ui-helper-hidden"><p>Drop your preferred Tools here</p></div>
+
+        <ul class="ui-cp-widget-tools" data-pos="left">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="billing">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="orders/#wallet">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Wallet                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="incomplete-orders">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="orders/#incomplete">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Incomplete Orders                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="center">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="pending-orders">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="orders/#pending">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Pending Orders                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="completed-orders">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="orders/#completed">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Completed Orders                                        </a>
+                                </li>
+                                                </ul>
+       
+
+        <ul class="ui-cp-widget-tools" data-pos="right">
+                                                                        <li class="widget-tool ui-cp-widget-tool " data-self="canceled-orders">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="orders/#canceled">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Canceled Orders                                        </a>
+                                </li>
+                                                        <li class="widget-tool ui-cp-widget-tool " data-self="invoices">
+                                        <a class="ui-cp-state-dummy ui-corner-all" href="orders/#invoices">
+                                                <span class="ui-cp-widget-tool-remove ui-corner-all ui-helper-hidden">
+                                                        <span class="ui-icon ui-icon-trash"></span>
+                                                </span>
+                                                Invoices                                        </a>
+                                </li>
+                                                </ul>
+       
+                                                        </div>
+
+                                                </li>
+                                                                                                                </ul>
+                
+</div>
+                        </li>
+                        </ul>
+
+</div>
+                    </div>
+                        </div>
+            <!-- Content -->
+
+            
+                        <div id="footer" class="layout ui-custom-border ui-corner-all">
+                    &copy;
+                    Copyright 2003 - 2025 - All rights reserved. <a href="terms-of-service/#tos-privacy">Privacy Policy</a> | <a href="terms-of-service/#tos-hosting">Terms of Services</a> | <a href="terms-of-service/#tos-refund">Refund Policy</a> | <a href="terms-of-service/#tos-pai">Provisioning & Invoicing</a>            </div>
+            
+            
+                    <div id="translator-panel">
+                            <ul>
+                                                                </ul>
+                    </div>
+
+                    
+                    
+                        <div id="support-bubble">
+                <p><a href="support"></a></p>
+            </div>
+            
+                    <script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-1162557-1', 'auto', {
+                      'clientId': '977191330.1735841427',
+                      'allowLinker': true
+                    });
+                    ga('require', 'linker');
+                    ga('linker:autoLink', ['awardspace.com', 'runhosting.com', 'awardspace.net','2checkout.com']);
+                    ga('send', 'pageview');
+                    </script>
+                        </body>
+</html>
